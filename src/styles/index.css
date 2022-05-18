@@ -1,3 +1,84 @@
-/* 
-    General Styles
-*/
+body {
+    background-color: rgb(255, 255, 255);
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+}
+
+.itemFav {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    justify-content: space-around;
+}
+
+.btn-group, .btn-group-vertical {
+    display: block;
+}
+
+.itemsAdded {
+    border: 1px solid #8bb8da;
+    margin-left: 10%;
+    padding: 2px;
+    margin-right: 1%;
+    background-color: gray;
+}
+
+.footer-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: red;
+    margin-top: 3rem;
+}
+
+.footer {
+    margin-top: 10vw !important;
+    bottom: 0;
+    width: 100%;
+}
+
+#lorem {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+hr { 
+    width: 50%;
+    text-align: left;
+    margin-left: 0;
+    color: red;
+    margin-top: 35px !important;
+    height: 2px;
+}
+
+h2 {
+    color: red;
+}
+
+.row {
+    flex-wrap: nowrap !important;
+    overflow: auto !important;
+}
+
+.col-3 {
+    width: 25% !important;
+}
+
+.single-item {     
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;     
+    display: flex;     
+    flex-wrap: wrap !important;    
+    margin-top: calc(var(--bs-gutter-y) * -1);    
+    margin-right: calc(var(--bs-gutter-x) * -.5);     
+    margin-left: calc(var(--bs-gutter-x) * -.5); 
+}
